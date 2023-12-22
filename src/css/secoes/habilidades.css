@@ -1,0 +1,34 @@
+.habilidades .container-habilidades {
+   text-align: center;
+   justify-content: center;
+}
+
+.habilidades .container-habilidades .habidade {
+    max-width: 350px;
+    padding: 40px 20px;
+}
+
+.habilidades .container-habilidades .habidade p,
+.habilidades .container-habilidades .habidade h3, 
+.habilidades .container-habilidades .habidade .logo i {
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.habilidades .container-habilidades .habidade h3 {
+    color: var(--cor-secundaria);
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.habilidades .container-habilidades .habidade p {
+    font-size: var(--fonte-grande);
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .habidade i {
+    font-size: 8rem;
+}
