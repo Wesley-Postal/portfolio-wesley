@@ -6,7 +6,6 @@
     padding: 15px 15px;
     box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, .2);
     background-color: #150e24ac;
-
 }
 
 .header .logo {
@@ -19,6 +18,7 @@
     text-transform: uppercase;
     background: linear-gradient(45deg, #3D4F73, #EE6B4D, #3D4F73);
     background-size: 400%, 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: degrade 10s linear infinite alternate;
